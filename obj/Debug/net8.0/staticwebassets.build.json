@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sXqQ01F+appMM8J3dTJpMJFt3Ln+vdXu6ozIwLSzurs=",
+  "Hash": "axhfNFACgJ5AEoWU6AhvHIECQO88vzbIifV3AFVS5Tw=",
   "Source": "Tarea2Pweb",
   "BasePath": "_content/Tarea2Pweb",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Tarea2Pweb\\wwwroot",
       "Source": "Tarea2Pweb",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\bienvenida.png",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\bienvenida.png",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "bienvenida.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\bienvenida.png"
     },
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\core.css",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\core.css",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "core.css",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\core.css"
     },
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\demo.css",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\demo.css",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "demo.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\favicon.ico",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\favicon.png",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\image.png",
+      "Identity": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\image.png",
       "SourceId": "Tarea2Pweb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\usuario\\Desktop\\trabajo\\pweb-tarea1\\Tarea2Pweb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\",
       "BasePath": "_content/Tarea2Pweb",
       "RelativePath": "image.png",
       "AssetKind": "All",
