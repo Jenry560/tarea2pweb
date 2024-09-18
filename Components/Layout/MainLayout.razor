@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+<div class="layout-wrapperr">
+  <!-- Layout container -->
+  <div class="layout-container">
+    <NavMenu />
+    <!-- Layout page -->
+    <div class="layout-page">
+      <NavbarMenu />
+      <!-- Content -->
+      <div class="container">
+        <div class="content-page">
+          @Body
+        </div>
+        <FooterMenu />
+      </div>
+    </div>
+    <!-- / Layout page -->
+  </div>
+</div>

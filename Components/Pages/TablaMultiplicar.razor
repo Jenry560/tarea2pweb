@@ -1,0 +1,62 @@
+@page "/tabla_multiplicar"
+@rendermode InteractiveServer
+@using Tarea2Pweb.Components.Clases
+
+<PageTitle>Tabla Multiplicar</PageTitle>
+<div class="table animation_content">
+    <div class="row header">
+        <div class="cell">Multiplicación</div>
+        <div class="cell">Resultado</div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <input type="number" placeholder="ingrese el numero" @bind="numero" />
+        </div>
+        <div class="cell">
+            <button @onclick=operate>Calcular</button>
+        </div>
+    </div>
+    @if (tablaMultiplicar.Count > 0)
+
+    {
+        @foreach (var resultado in tablaMultiplicar)
+
+        {
+                    <div class="row">
+                        <div class="cell">@resultado.expresion</div>
+                        <div class="cell">@resultado.resultado</div>
+                    </div>
+        }
+    }
+
+</div>
+
+@code {
+    private int numero;
+
+
+
+    List<Multiplicar> tablaMultiplicar = new List<Multiplicar>();
+
+
+
+    private void operate()
+
+    {
+
+        tablaMultiplicar = [];
+
+        for (int i = 0; i <= 15; i++)
+
+        {
+
+            string ex = $"{i} x {numero}";
+
+            int resultado = numero * i;
+
+            tablaMultiplicar.Add(new Multiplicar { expresion = ex, resultado = resultado });
+
+        }
+
+    }
+}

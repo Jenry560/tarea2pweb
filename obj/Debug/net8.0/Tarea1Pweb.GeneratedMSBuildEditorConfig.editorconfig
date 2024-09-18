@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tarea2Pweb
+build_property.RootNamespace = Tarea2Pweb
+build_property.ProjectDir = C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Layout/FooterMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Layout/NavbarMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2YmFyTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Pages/AcercaDe.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2VyY2FEZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Pages/AprendeMas.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBcHJlbmRlTWFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Pages/CaculadoraPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWN1bGFkb3JhUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Pages/TablaMultiplicar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUYWJsYU11bHRpcGxpY2FyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/usuario/Desktop/trabajo/pweb-tarea1/Tarea2Pweb/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 

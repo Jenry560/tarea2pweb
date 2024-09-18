@@ -1,0 +1,69 @@
+@page "/aprende_mas"
+@rendermode InteractiveServer
+@using Tarea2Pweb.Components.Clases
+<PageTitle>Aprende mas</PageTitle>
+
+<div class="row animation_content">
+    @foreach (var video in videos)
+
+    {
+            <div class="card">
+                <img src="@video.ImageUrl" alt="Imagen de la card" />
+                <div class="card-content">
+                    <h3>
+                    @video.Description
+                    </h3>
+                    <p>@video.Highlights</p>
+                    <a href="@video.Link" class="button" target="_blank">Ver Video</a>
+                </div>
+            </div>
+    }
+</div>
+@code {
+
+    List<Video> videos = new List<Video>
+    {
+         new Video
+        {
+            Title = "Blazor WebAssembly and Web API on .NET 5",
+            Link = "https://www.youtube.com/watch?v=zE9quNBlB98",
+            Description = "Aprende cómo conectar Blazor WebAssembly con Web API en .NET 5.",
+            Highlights = "Video tutorial sobre cómo crear APIs REST con Blazor.",
+            ImageUrl = "https://i.ytimg.com/vi/zE9quNBlB98/maxresdefault.jpg"
+        },
+        new Video
+        {
+            Title = "Blazor Server CRUD Application",
+            Link = "https://www.youtube.com/watch?v=Ys0vYHfSZXE",
+            Description = "Cómo construir una aplicación CRUD utilizando Blazor Server.",
+            Highlights = "Perfecto para quienes buscan construir aplicaciones con operaciones básicas de CRUD.",
+            ImageUrl = "https://i.ytimg.com/vi/Ys0vYHfSZXE/maxresdefault.jpg"
+        },
+        new Video
+        {
+            Title = "Blazor WebAssembly Authentication with JWT",
+            Link = "https://www.youtube.com/watch?v=EKhMfczWqgM",
+            Description = "Implementación de autenticación en Blazor WebAssembly usando JWT.",
+            Highlights = "Cubre el manejo de autenticación y seguridad con JWT en Blazor.",
+            ImageUrl = "https://i.ytimg.com/vi/EKhMfczWqgM/maxresdefault.jpg"
+        },
+        new Video
+        {
+            Title = "Blazor Tutorial for Beginners",
+            Link = "https://www.youtube.com/watch?v=hx8i-Wq_jtc",
+            Description = "Tutorial completo para principiantes en Blazor, desde la configuración hasta la creación de componentes.",
+            Highlights = "Explicación clara y detallada para quienes inician en Blazor.",
+            ImageUrl = "https://i.ytimg.com/vi/hx8i-Wq_jtc/maxresdefault.jpg"
+        },
+        new Video
+        {
+            Title = "Blazor WebAssembly Full Course",
+            Link = "https://www.youtube.com/watch?v=UYIFonBBvFo",
+            Description = "Curso completo sobre Blazor WebAssembly, desde cero hasta el despliegue de aplicaciones.",
+            Highlights = "Curso detallado con ejemplos prácticos y enfoque en el desarrollo completo.",
+            ImageUrl = "https://i.ytimg.com/vi/UYIFonBBvFo/maxresdefault.jpg"
+        }
+    };
+
+
+}

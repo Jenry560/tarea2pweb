@@ -1,0 +1,57 @@
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\appsettings.Development.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\appsettings.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.staticwebassets.runtime.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.exe
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.deps.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.runtimeconfig.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.dll
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.pdb
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.AssemblyInfoInputs.cache
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.AssemblyInfo.cs
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.csproj.CoreCompileInputs.cache
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.MvcApplicationPartsAssemblyInfo.cache
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.build.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.development.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.Tarea2Pweb.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.build.Tarea2Pweb.props
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Tarea2Pweb.props
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Tarea2Pweb.props
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\scopedcss\bundle\Tarea2Pweb.styles.css
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\scopedcss\projectbundle\Tarea2Pweb.bundle.scp.css
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.dll
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\refint\Tarea2Pweb.dll
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.pdb
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.genruntimeconfig.cache
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\ref\Tarea2Pweb.dll
+D:\Deskop\Itla\Tarea 1 Programacion Web\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.sourcelink.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\appsettings.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.staticwebassets.runtime.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.exe
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.deps.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.runtimeconfig.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.dll
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\bin\Debug\net8.0\Tarea2Pweb.pdb
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.AssemblyInfoInputs.cache
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.AssemblyInfo.cs
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.sourcelink.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.Tarea2Pweb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.build.Tarea2Pweb.props
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Tarea2Pweb.props
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Tarea2Pweb.props
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\scopedcss\bundle\Tarea2Pweb.styles.css
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.dll
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\refint\Tarea2Pweb.dll
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.pdb
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\Tarea2Pweb.genruntimeconfig.cache
+C:\Users\usuario\Desktop\trabajo\pweb-tarea1\Tarea2Pweb\obj\Debug\net8.0\ref\Tarea2Pweb.dll
