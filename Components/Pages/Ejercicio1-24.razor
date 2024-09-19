@@ -1,0 +1,402 @@
+@page "/ejercicio/{numEjer:int}"
+@rendermode InteractiveServer
+
+<div class="content animation_content">
+    <div class="table">
+
+        <div class="cell">
+            <h3>Ejercicio @numEjer</h3>
+        </div>
+        <div class="rowx">
+            <div class="cell">
+                @if (numEjer == 12)
+                {
+
+                    <input type="number" placeholder="ingrese el numero" @bind="numeroDecimal" />
+                }
+                else
+                {
+                    <input type="number" placeholder="ingrese el numero" @bind="numero" min="1" />
+                }
+
+            </div>
+            <div class="cell">
+                @if (numEjer == 24)
+                {
+                    <input type="number" placeholder="ingrese el numero" @bind="numero2" />
+                }
+
+            </div>
+            <div class="cell cellx">
+                <button @onclick=operate>Calcular</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <p style="padding: 10px 20px">@resultado</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int numEjer { get; set; }
+    private int numero;
+    private int numero2;
+    private decimal numeroDecimal;
+
+    private string resultado = "";
+
+
+
+    private void operate()
+    {
+
+        try
+        {
+            switch (numEjer)
+            {
+                case 2:
+                    ejer2();
+                    break;
+                case 4:
+                    ejer4();
+                    break;
+                case 6:
+                    ejer6();
+                    break;
+                case 8:
+                    ejer8();
+                    break;
+                case 10:
+                    ejer10();
+                    break;
+
+
+                case 12:
+                    ejer12();
+                    break;
+
+                case 14:
+                    ejer14();
+                    break;
+
+                case 16:
+                    ejer16();
+                    break;
+
+                case 18:
+                    ejer18();
+                    break;
+
+                case 20:
+                    ejer20();
+                    break;
+
+                case 22:
+                    ejer22();
+                    break;
+
+                case 24:
+                    ejer24();
+                    break;
+                case 26:
+                    ejer26();
+                    break;
+                case 28:
+                    ejer28();
+                    break;
+                case 30:
+                    ejer30();
+                    break;
+                case 32:
+                    ejer32();
+                    break;
+                case 34:
+                    ejer34();
+                    break;
+                case 36:
+                    ejer36();
+                    break;
+                case 38:
+                    ejer38();
+                    break;
+                case 40:
+                    ejer40();
+                    break;
+                case 42:
+                    ejer42();
+                    break;
+                case 44:
+                    ejer44();
+                    break;
+                case 46:
+                    ejer46();
+                    break;
+                case 48:
+                    ejer48();
+                    break;
+                case 50:
+                    ejer50();
+                    break;
+                default:
+                    break;
+
+            }
+        }
+        catch
+        {
+            resultado = "Ha ocurrido un error inesperado";
+        }
+
+    }
+
+
+
+    void ejer2()
+    {
+        string numStr = numero.ToString();
+        if (numStr.Length > 2)
+        {
+
+            resultado = $"Los dos ultimos digitos de {numStr} son {numStr.Substring(numStr.Length - 2)}";
+        }
+        else
+        {
+
+            resultado = "El numero debe ser mayor o igual a 3 caracteres";
+        }
+    }
+
+
+    void ejer4()
+    {
+        string numStr = numero.ToString();
+        if (numStr.Length > 0)
+        {
+
+            resultado = $"La cantidad de digitos de {numStr} son {numStr.Length}";
+        }
+        else
+        {
+
+            resultado = "Debo Ingresar un numero";
+        }
+    }
+
+    void ejer6()
+    {
+
+        char caracterAscii = (char)numero;
+
+
+        resultado = $"El carácter ASCII correspondiente al número {numero} es '{caracterAscii}";
+
+    }
+
+    void ejer8()
+    {
+        int a = 0, b = 1;
+        resultado = $"El resultado del numero {numero} si es fibonacci es: ";
+
+        for (int i = 0; i < 30; i++)
+        {
+            if (a == numero)
+                resultado += $"{a} ";
+
+            int temp = a;
+            a = b;
+            b = temp + b;
+        }
+
+        resultado += $"{0} ";
+    }
+
+    void ejer10()
+    {
+        string numStr = numero.ToString();
+        if (numStr.Length > 1)
+        {
+
+            resultado = $"El primer digito de {numStr} es {numStr[0]}";
+        }
+        else
+        {
+
+            resultado = "El numero debe ser mayor o igual a 2 caracteres";
+        }
+    }
+
+    void ejer12()
+    {
+        resultado = numeroDecimal % 1 == 0 ? $"1 osea que es entero" : $"0 osea que no es entero";
+
+    }
+
+    void ejer14()
+    {
+        if (numero >= 97 && numero <= 122)
+        {
+            resultado = $"1 osea que es una letra minúscula";
+        }
+        else
+        {
+            resultado = $"0 osea que no es una letra minúscula";
+        }
+    }
+
+    void ejer16()
+    {
+        if (numero >= 48 && numero <= 57)
+        {
+            resultado = "1, o sea que es un dígito";
+        }
+        else
+        {
+            resultado = "0, o sea que no es un dígito";
+        }
+
+    }
+
+    void ejer18()
+    {
+        if (numero <= 0)
+        {
+            resultado = "0, o sea que no es un número de factoriales";
+        }
+
+        int[] factoriales = new int[10];
+        for (int i = 0; i < 10; i++)
+        {
+            factoriales[i] = CalcularFactorial(i);
+        }
+
+        for (int i = 0; i < 10; i++)
+        {
+            if (numero == factoriales[i])
+            {
+                resultado = "1, o sea que es un número de factoriales";
+                break;
+            }
+        }
+
+        resultado = "0, o sea que no es un número de factoriales";
+    }
+
+    void ejer20()
+    {
+
+        string numStr = numero.ToString();
+
+        char igual = numStr[0];
+        foreach (char digit in numStr)
+        {
+            if (digit != igual)
+            {
+
+                resultado = "Los digitos son diferentes";
+                return;
+            }
+        }
+        resultado = "Los digitos son iguales";
+    }
+
+    void ejer22()
+    {
+
+        if (numero % 5 == 0)
+        {
+            resultado = "1, o sea que es multiplo de 5";
+        }
+        else
+        {
+            resultado = "0, o sea que no es multiplo de 5";
+        }
+    }
+
+    void ejer24()
+    {
+        string num1Str = numero.ToString();
+        string num2Str = numero2.ToString();
+        if (num1Str.Length != 2 && num2Str.Length != 2)
+        {
+
+            resultado = "Los dos digitos debenes ser de dos cifras";
+        }
+        else
+        {
+
+            string inversoNumero1 = num1Str.Substring(1, 1) + num1Str.Substring(0, 1);
+            string inversoNumero2 = num2Str.Substring(1, 1) + num2Str.Substring(0, 1);
+            if (inversoNumero2 == num1Str && inversoNumero1 == num2Str)
+            {
+                resultado = "1, o sea que son inversos";
+            }
+            else
+            {
+                resultado = "0, o sea que no son inversos";
+            }
+
+
+        }
+
+
+
+    }
+
+    void ejer26()
+    { }
+
+    void ejer28()
+    { }
+
+    void ejer30()
+    { }
+
+    void ejer32()
+    { }
+
+    void ejer34()
+    { }
+
+    void ejer36()
+    { }
+
+    void ejer38()
+    { }
+
+    void ejer40()
+    { }
+
+    void ejer42()
+    { }
+
+    void ejer44()
+    { }
+
+    void ejer46()
+    { }
+
+    void ejer48()
+    { }
+
+    void ejer50()
+    { }
+
+
+
+    private static int CalcularFactorial(int numero)
+    {
+        if (numero == 0 || numero == 1)
+        {
+            return 1;
+        }
+
+        int resultado = 1;
+        for (int i = 2; i <= numero; i++)
+        {
+            resultado *= i;
+        }
+        return resultado;
+    }
+}

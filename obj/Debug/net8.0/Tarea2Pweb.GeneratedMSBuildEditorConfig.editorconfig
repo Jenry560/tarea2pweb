@@ -9,63 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tarea2Pweb
 build_property.RootNamespace = Tarea2Pweb
-build_property.ProjectDir = C:\Users\WatersoftSRL\Desktop\pweb\tarea2pweb\
+build_property.ProjectDir = D:\Deskop\Itla\tarea2pweb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\WatersoftSRL\Desktop\pweb\tarea2pweb
+build_property.MSBuildProjectDirectory = D:\Deskop\Itla\tarea2pweb
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/App.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Layout/FooterMenu.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Layout/FooterMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRm9vdGVyTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Layout/MainLayout.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Layout/NavbarMenu.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Layout/NavbarMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2YmFyTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/AcercaDe.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/AcercaDe.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY2VyY2FEZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/AprendeMas.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/AprendeMas.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBcHJlbmRlTWFzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/CaculadoraPage.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/CaculadoraPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWN1bGFkb3JhUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/Ejercicio2.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW8yLnJhem9y
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/Ejercicio1-24.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW8xLTI0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/Ejercicio4.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW80LnJhem9y
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/Ejercicio26-50.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW8yNi01MC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/Ejercicio6.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFamVyY2ljaW82LnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Pages/Home.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/Routes.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WatersoftSRL/Desktop/pweb/tarea2pweb/Components/_Imports.razor]
+[D:/Deskop/Itla/tarea2pweb/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

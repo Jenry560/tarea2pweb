@@ -192,7 +192,7 @@ img {
 
 .layout-page {
   position: relative;
-  padding: 20px;
+  padding: 20px 60px;
   max-width: 1600px;
   margin: 0 auto;
   height: 100%;

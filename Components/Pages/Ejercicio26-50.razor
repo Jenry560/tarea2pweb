@@ -1,0 +1,166 @@
+@page "/ejercicios/{numEjer:int}"
+@rendermode InteractiveServer
+@inject IJSRuntime JS
+<div class="content animation_content">
+    <div class="table">
+
+        <div class="cell">
+            <h3>Ejercicio @numEjer</h3>
+        </div>
+        <div class="rowx">
+            <div class="cell">
+
+
+                <input type="number" placeholder="Ingrese el número 1" @bind="numeros[0]" />
+                <input type="number" placeholder="Ingrese el número 2" @bind="numeros[1]" />
+                <input type="number" placeholder="Ingrese el número 3" @bind="numeros[2]" />
+                <input type="number" placeholder="Ingrese el número 4" @bind="numeros[3]" />
+                <input type="number" placeholder="Ingrese el número 5" @bind="numeros[4]" />
+                <input type="number" placeholder="Ingrese el número 6" @bind="numeros[5]" />
+                <input type="number" placeholder="Ingrese el número 7" @bind="numeros[6]" />
+                <input type="number" placeholder="Ingrese el número 8" @bind="numeros[7]" />
+                <input type="number" placeholder="Ingrese el número 9" @bind="numeros[8]" />
+                <input type="number" placeholder="Ingrese el número 10" @bind="numeros[9]" />
+            </div>
+
+            <div class="cell cellx">
+                <button @onclick=operate>Calcular</button>
+            </div>
+
+        </div>
+        <div class="row">
+            <p style="padding: 10px 20px">@resultado</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int numEjer { get; set; }
+    private int[] numeros = new int[10];
+    private int numero2;
+    private decimal numeroDecimal;
+
+    private string resultado = "";
+
+
+
+    private void operate()
+    {
+
+        try
+        {
+            switch (numEjer)
+            {
+
+                case 26:
+                    ejer26();
+                    break;
+                case 28:
+                    ejer28();
+                    break;
+                case 30:
+                    ejer30();
+                    break;
+                case 32:
+                    ejer32();
+                    break;
+                case 34:
+                    ejer34();
+                    break;
+                case 36:
+                    ejer36();
+                    break;
+                case 38:
+                    ejer38();
+                    break;
+                case 40:
+                    ejer40();
+                    break;
+                case 42:
+                    ejer42();
+                    break;
+                case 44:
+                    ejer44();
+                    break;
+                case 46:
+                    ejer46();
+                    break;
+                case 48:
+                    ejer48();
+                    break;
+                case 50:
+                    ejer50();
+                    break;
+                default:
+                    break;
+
+            }
+        }
+        catch
+        {
+            resultado = "Ha ocurrido un error inesperado";
+        }
+
+    }
+
+
+
+    void ejer26()
+    {
+        resultado = "El numero mayor es: " + numeros.Max();
+    }
+
+    void ejer28()
+    { }
+
+    void ejer30()
+    { }
+
+    void ejer32()
+    { }
+
+    void ejer34()
+    { }
+
+    void ejer36()
+    { }
+
+    void ejer38()
+    { }
+
+    void ejer40()
+    { }
+
+    void ejer42()
+    { }
+
+    void ejer44()
+    { }
+
+    void ejer46()
+    { }
+
+    void ejer48()
+    { }
+
+    void ejer50()
+    { }
+
+
+
+    private static int CalcularFactorial(int numero)
+    {
+        if (numero == 0 || numero == 1)
+        {
+            return 1;
+        }
+
+        int resultado = 1;
+        for (int i = 2; i <= numero; i++)
+        {
+            resultado *= i;
+        }
+        return resultado;
+    }
+}
