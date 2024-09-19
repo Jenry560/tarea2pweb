@@ -1,27 +1,27 @@
 {
   "Files": [
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\bienvenida.png",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\bienvenida.png",
       "PackagePath": "staticwebassets\\bienvenida.png"
     },
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\core.css",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\core.css",
       "PackagePath": "staticwebassets\\core.css"
     },
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\demo.css",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\demo.css",
       "PackagePath": "staticwebassets\\demo.css"
     },
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\Deskop\\Itla\\tarea2pweb\\wwwroot\\image.png",
+      "Id": "C:\\Users\\WatersoftSRL\\Desktop\\pweb\\tarea2pweb\\wwwroot\\image.png",
       "PackagePath": "staticwebassets\\image.png"
     },
     {

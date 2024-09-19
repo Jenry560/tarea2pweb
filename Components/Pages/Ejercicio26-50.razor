@@ -2,29 +2,106 @@
 @rendermode InteractiveServer
 @inject IJSRuntime JS
 <div class="content animation_content">
-    <div class="table">
+    <div class="table" style="max-width: @(numEjer == 50 ? "900px" : numEjer >= 46 ?  "700px": "500px");">
 
         <div class="cell">
+            <NavLink class="volver-boton " href="/">
+                <i class="fas fa-arrow-left"></i>
+            </NavLink>
             <h3>Ejercicio @numEjer</h3>
         </div>
         <div class="rowx">
             <div class="cell">
 
+                @if (numEjer == 36)
+                {
+                    <input type="number" placeholder="Ingrese el número 1" @bind="numero" />
+                }
+                else if (numEjer <= 40)
+                {
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros[0]" />
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros[1]" />
+                    <input type="number" placeholder="Ingrese el número 3" @bind="numeros[2]" />
+                    <input type="number" placeholder="Ingrese el número 4" @bind="numeros[3]" />
+                    <input type="number" placeholder="Ingrese el número 5" @bind="numeros[4]" />
+                    <input type="number" placeholder="Ingrese el número 6" @bind="numeros[5]" />
+                    <input type="number" placeholder="Ingrese el número 7" @bind="numeros[6]" />
+                    <input type="number" placeholder="Ingrese el número 8" @bind="numeros[7]" />
+                    <input type="number" placeholder="Ingrese el número 9" @bind="numeros[8]" />
+                    <input type="number" placeholder="Ingrese el número 10" @bind="numeros[9]" />
+                }
+                else if (numEjer >= 42 && numEjer <= 45)
+                {
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros3x4[0]" />
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros3x4[1]" />
+                    <input type="number" placeholder="Ingrese el número 3" @bind="numeros3x4[2]" />
+                    <input type="number" placeholder="Ingrese el número 4" @bind="numeros3x4[3]" />
+                    <input type="number" placeholder="Ingrese el número 5" @bind="numeros3x4[4]" />
+                    <input type="number" placeholder="Ingrese el número 6" @bind="numeros3x4[5]" />
+                    <input type="number" placeholder="Ingrese el número 7" @bind="numeros3x4[6]" />
+                    <input type="number" placeholder="Ingrese el número 8" @bind="numeros3x4[7]" />
+                    <input type="number" placeholder="Ingrese el número 9" @bind="numeros3x4[8]" />
+                    <input type="number" placeholder="Ingrese el número 10" @bind="numeros3x4[9]" />
+                    <input type="number" placeholder="Ingrese el número 11" @bind="numeros3x4[10]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros3x4[11]" />
+                }
+                else if (numEjer >= 46 && numEjer < 49)
+                {
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros4x4[0]" />
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros4x4[1]" />
+                    <input type="number" placeholder="Ingrese el número 3" @bind="numeros4x4[2]" />
+                    <input type="number" placeholder="Ingrese el número 4" @bind="numeros4x4[3]" />
+                    <input type="number" placeholder="Ingrese el número 5" @bind="numeros4x4[4]" />
+                    <input type="number" placeholder="Ingrese el número 6" @bind="numeros4x4[5]" />
+                    <input type="number" placeholder="Ingrese el número 7" @bind="numeros4x4[6]" />
+                    <input type="number" placeholder="Ingrese el número 8" @bind="numeros4x4[7]" />
+                    <input type="number" placeholder="Ingrese el número 9" @bind="numeros4x4[8]" />
+                    <input type="number" placeholder="Ingrese el número 10" @bind="numeros4x4[9]" />
+                    <input type="number" placeholder="Ingrese el número 11" @bind="numeros4x4[10]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros4x4[11]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros4x4[12]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros4x4[13]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros4x4[14]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros4x4[15]" />
+                }
+                else
+                {
+                    <input type="number" placeholder="Ingrese el número 1" @bind="numeros5x5[0]" />
+                    <input type="number" placeholder="Ingrese el número 2" @bind="numeros5x5[1]" />
+                    <input type="number" placeholder="Ingrese el número 3" @bind="numeros5x5[2]" />
+                    <input type="number" placeholder="Ingrese el número 4" @bind="numeros5x5[3]" />
+                    <input type="number" placeholder="Ingrese el número 5" @bind="numeros5x5[4]" />
+                    <input type="number" placeholder="Ingrese el número 6" @bind="numeros5x5[5]" />
+                    <input type="number" placeholder="Ingrese el número 7" @bind="numeros5x5[6]" />
+                    <input type="number" placeholder="Ingrese el número 8" @bind="numeros5x5[7]" />
+                    <input type="number" placeholder="Ingrese el número 9" @bind="numeros5x5[8]" />
+                    <input type="number" placeholder="Ingrese el número 10" @bind="numeros5x5[9]" />
+                    <input type="number" placeholder="Ingrese el número 11" @bind="numeros5x5[10]" />
+                    <input type="number" placeholder="Ingrese el número 12" @bind="numeros5x5[11]" />
+                    <input type="number" placeholder="Ingrese el número 13" @bind="numeros5x5[12]" />
+                    <input type="number" placeholder="Ingrese el número 14" @bind="numeros5x5[13]" />
+                    <input type="number" placeholder="Ingrese el número 15" @bind="numeros5x5[14]" />
+                    <input type="number" placeholder="Ingrese el número 16" @bind="numeros5x5[15]" />
+                    <input type="number" placeholder="Ingrese el número 17" @bind="numeros5x5[16]" />
+                    <input type="number" placeholder="Ingrese el número 18" @bind="numeros5x5[17]" />
+                    <input type="number" placeholder="Ingrese el número 19" @bind="numeros5x5[18]" />
+                    <input type="number" placeholder="Ingrese el número 20" @bind="numeros5x5[19]" />
+                    <input type="number" placeholder="Ingrese el número 21" @bind="numeros5x5[20]" />
+                    <input type="number" placeholder="Ingrese el número 22" @bind="numeros5x5[21]" />
+                    <input type="number" placeholder="Ingrese el número 23" @bind="numeros5x5[22]" />
+                    <input type="number" placeholder="Ingrese el número 24" @bind="numeros5x5[23]" />
+                    <input type="number" placeholder="Ingrese el número 25" @bind="numeros5x5[24]" />
+                }
 
-                <input type="number" placeholder="Ingrese el número 1" @bind="numeros[0]" />
-                <input type="number" placeholder="Ingrese el número 2" @bind="numeros[1]" />
-                <input type="number" placeholder="Ingrese el número 3" @bind="numeros[2]" />
-                <input type="number" placeholder="Ingrese el número 4" @bind="numeros[3]" />
-                <input type="number" placeholder="Ingrese el número 5" @bind="numeros[4]" />
-                <input type="number" placeholder="Ingrese el número 6" @bind="numeros[5]" />
-                <input type="number" placeholder="Ingrese el número 7" @bind="numeros[6]" />
-                <input type="number" placeholder="Ingrese el número 8" @bind="numeros[7]" />
-                <input type="number" placeholder="Ingrese el número 9" @bind="numeros[8]" />
-                <input type="number" placeholder="Ingrese el número 10" @bind="numeros[9]" />
             </div>
-
+            @if (numEjer == 40)
+            {
+                <div class="cell">
+                    <input type="number" placeholder="Ingrese el número 1" @bind="numero" />
+                </div>
+            }
             <div class="cell cellx">
-                <button @onclick=operate>Calcular</button>
+                <button @onclick=operate>Operar</button>
             </div>
 
         </div>
@@ -38,8 +115,10 @@
     [Parameter]
     public int numEjer { get; set; }
     private int[] numeros = new int[10];
-    private int numero2;
-    private decimal numeroDecimal;
+    private int[] numeros3x4 = new int[12];
+    private int[] numeros4x4 = new int[16];
+    private int[] numeros5x5 = new int[25];
+    private int numero;
 
     private string resultado = "";
 
@@ -97,55 +176,275 @@
 
             }
         }
-        catch
+        catch (Exception ex)
         {
+            Console.WriteLine(ex);
             resultado = "Ha ocurrido un error inesperado";
         }
 
     }
 
-
-
     void ejer26()
     {
+        if (!validarMatriz(numeros)) return;
+
+
         resultado = "El numero mayor es: " + numeros.Max();
     }
 
     void ejer28()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+
+        resultado = "";
+        foreach (int num in numeros)
+        {
+            if (EsPrimo(num))
+            {
+                resultado += $"{num}, ";
+            }
+        }
+
+    }
 
     void ejer30()
-    { }
+    {
+        if (!validarMatriz(numeros)) return;
+
+        List<int> primos = [];
+        foreach (int num in numeros)
+        {
+            if (EsPrimo(num))
+            {
+                primos.Add(num);
+            }
+        }
+        int mayorPrimo = primos.Max();
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            if (numeros[i] == mayorPrimo)
+            {
+                resultado = $" El mayor primo es: {mayorPrimo} y su indice {i}";
+                return;
+            }
+        }
+
+    }
 
     void ejer32()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+
+        resultado = $"El promedio del vector es: {numeros.Average()}";
+    }
 
     void ejer34()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+
+        int mayorLength = 0;
+        foreach (int num in numeros)
+        {
+            if (num.ToString().Length > mayorLength)
+            {
+                mayorLength = num.ToString().Length;
+            }
+        }
+
+        for (int i = 0; i < numeros.Length; i++)
+        {
+            if (numeros[i].ToString().Length == mayorLength)
+            {
+                resultado = $" El numero de mayor digito es: {numeros[i]} y su posición {i}";
+                return;
+            }
+        }
+    }
 
     void ejer36()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+        int result = 0;
+
+        if (numero <= 0)
+        {
+            result = 0;
+        }
+        else if (numero == 1)
+        {
+            result = 1;
+        }
+        else
+        {
+            int a = 0;
+            int b = 1;
+
+            for (int i = 2; i <= numero; i++)
+            {
+                result = a + b;
+                a = b;
+                b = result;
+            }
+        }
+
+
+        resultado = $"El fibonacci de {numero} es: {result}";
+    }
 
     void ejer38()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+
+        resultado = "Los que terminan en 3 son: ";
+        foreach (int num in numeros)
+        {
+            if (num.ToString().EndsWith("3"))
+            {
+                resultado += $"{num}, ";
+            }
+        }
+    }
 
     void ejer40()
-    { }
+    {
+
+        if (!validarMatriz(numeros)) return;
+
+        resultado = $"Los que terminan en {numero} son: ";
+        foreach (int num in numeros)
+        {
+            if (num.ToString().EndsWith(numero.ToString()))
+            {
+                resultado += $"{num}, ";
+            }
+        }
+    }
 
     void ejer42()
-    { }
+    {
+        if (!validarMatriz(numeros3x4)) return;
+
+        resultado = $"Los que terminan en {numero} son: ";
+        int mayorDato = numeros3x4.Max();
+        int cantidadRepetida = 0;
+        foreach (int num in numeros3x4)
+        {
+            if (num == mayorDato)
+            {
+                cantidadRepetida++;
+            }
+        }
+        resultado = $"El mayor dato es {mayorDato} y se repite {cantidadRepetida} veces";
+    }
 
     void ejer44()
-    { }
+    {
+        if (!validarMatriz(numeros3x4)) return;
+
+        List<int> primos = [];
+        foreach (int num in numeros3x4)
+        {
+            if (EsPrimo(num))
+            {
+                primos.Add(num);
+            }
+        }
+        int mayorPrimo = primos.Max();
+        int cantidadRepetida = 0;
+        foreach (int num in numeros3x4)
+        {
+            if (num == mayorPrimo)
+            {
+                cantidadRepetida++;
+            }
+        }
+        resultado = $"El mayor primo es {mayorPrimo} y se repite {cantidadRepetida} veces";
+    }
 
     void ejer46()
-    { }
+    {
+
+        if (!validarMatriz(numeros4x4)) return;
+        int numeroMayor = numeros4x4.Max();
+        int indiceNumero = 0;
+        for (int i = 0; i < numeros4x4.Length; i++)
+        {
+            if (numeros4x4[i] == numeroMayor)
+            {
+                indiceNumero = i;
+                break;
+            }
+        }
+        List<int> primeraFila = [0, 1, 2, 3];
+        List<int> segundaFila = [4, 5, 6, 7];
+        List<int> terceraFila = [8, 9, 10, 11];
+
+        int fila = 4;
+
+        if (primeraFila.Contains(indiceNumero))
+        {
+            fila = 1;
+        }
+        else if (segundaFila.Contains(indiceNumero))
+        {
+            fila = 2;
+        }
+        else if (terceraFila.Contains(indiceNumero))
+        {
+            fila = 3;
+        }
+        resultado = $"El mayor numero es {numeroMayor} y esta en la fila {fila}";
+
+    }
 
     void ejer48()
-    { }
+    {
+        if (!validarMatriz(numeros4x4)) return;
+        List<int> primos = [];
+        foreach (int num in numeros4x4)
+        {
+            if (EsPrimo(num))
+            {
+                primos.Add(num);
+            }
+        }
+        int mayorPrimo = primos.Max();
+
+        int indiceNumero = 0;
+        for (int i = 0; i < numeros4x4.Length; i++)
+        {
+            if (numeros4x4[i] == mayorPrimo)
+            {
+                indiceNumero = i;
+                break;
+            }
+        }
+
+        resultado = $"El mayor primo es {mayorPrimo} y su posicion es {indiceNumero}";
+    }
 
     void ejer50()
-    { }
+    {
+
+        if (!validarMatriz(numeros5x5)) return;
+
+        resultado = $"Los que terminan en {numero} son: ";
+        int masRepetido = MasReptido(numeros5x5);
+        int cantidadRepetida = 0;
+        foreach (int num in numeros5x5)
+        {
+            if (num == masRepetido)
+            {
+                cantidadRepetida++;
+            }
+        }
+        resultado = $"La moda es {masRepetido} y se repite {cantidadRepetida} veces";
+    }
 
 
 
@@ -163,4 +462,71 @@
         }
         return resultado;
     }
+
+    private bool validarMatriz(int[] matriz)
+    {
+        if (matriz.Any(x => x == 0))
+        {
+            resultado = "Todos la matriz debe ser completada";
+            return false;
+        }
+        return true;
+    }
+
+
+    private bool EsPrimo(int num)
+    {
+        // Los números menores que 2 no son primos
+        if (num < 2)
+        {
+            return false;
+        }
+
+        // El número 2 es primo
+        if (num == 2)
+        {
+            return true;
+        }
+
+        // Los números pares mayores que 2 no son primos
+        if (num % 2 == 0)
+        {
+            return false;
+        }
+
+        // Verificamos divisores desde 3 hasta la raíz cuadrada del número
+        for (int i = 3; i <= Math.Sqrt(num); i += 2)
+        {
+            if (num % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public int MasReptido(int[] arr)
+    {
+        var frequency = new Dictionary<int, int>();
+        int maxCount = 0;
+        int mostFrequent = arr[0];
+
+        foreach (var num in arr)
+        {
+            if (frequency.ContainsKey(num))
+                frequency[num]++;
+            else
+                frequency[num] = 1;
+
+            if (frequency[num] > maxCount)
+            {
+                maxCount = frequency[num];
+                mostFrequent = num;
+            }
+        }
+
+        return mostFrequent;
+    }
+
 }
